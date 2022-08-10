@@ -1,0 +1,42 @@
+.Country-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 12vh auto 0;
+    gap: 12px;
+}
+
+.Country-results {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px;
+    background: white;
+    border-radius: 4px;
+}
+
+.Country-results-item {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.Country-input-container {
+    display: flex;
+    position: relative;
+}
+
+.Country-input-container > input {
+    width: 100%;
+    padding: 12px;
+}
+
+.Country-input-container > span {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    cursor: pointer;
+}
+
+
